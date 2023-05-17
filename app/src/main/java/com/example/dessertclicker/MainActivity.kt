@@ -66,6 +66,8 @@ import com.example.dessertclicker.model.Dessert
 import com.example.dessertclicker.ui.theme.DessertClickerTheme
 private const val TAG = "MainActivity"
 class MainActivity : ComponentActivity() {
+
+//    val gameUiState by dessert.uiState.collectAsState()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate Called")
